@@ -53,11 +53,15 @@ button {
 	border: 1px solid darken(#2a9d8f, 15%);
 }
 
-.minus, .plus:hover {
+.minus:hover {
 	transform: translateY(-2px);
 }
 
-.minus, .plus:active {
+.plus:hover {
+	transform: translateY(-2px);
+}
+
+.action:active {
 	transform: translateY(2px);
 	box-shadow: none;
 }

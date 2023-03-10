@@ -16,8 +16,8 @@ function App() {
 		<div>
 	    <h2>Счетчик:</h2>
 		  <h1>{count}</h1>
-      <button onClick={countMinus} className="minus">- Минус</button>
-      <button onClick={countPlus} className="plus">Плюс +</button>
+      <button onClick={countMinus} className="minus action">- Минус</button>
+      <button onClick={countPlus} className="plus action">Плюс +</button>
     </div>
 	</div>
 }
